@@ -1,0 +1,158 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2947229986589983358
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2947229986589983357}
+  - component: {fileID: 2947229986589983331}
+  - component: {fileID: 2947229986589983330}
+  m_Layer: 0
+  m_Name: AudioPlayer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2947229986589983357
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2947229986589983358}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &2947229986589983331
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2947229986589983358}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 78a9b6e8c36cea64cb6f2ab878431cd6, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 0
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!114 &2947229986589983330
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2947229986589983358}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 746a74da51ac1254cb510b6ae81cc78a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bufferDecreaseAmount: {fileID: 11400000, guid: ea7ead252af5b3546a274e38c6df68d7, type: 2}
+  bufferDecreaseMultiplier: {fileID: 11400000, guid: deed629228757da43973239593396506, type: 2}
+  audioProfile: {fileID: 11400000, guid: fbdf1d5cec914f144a4c70f1a383ec2e, type: 2}
+  amplitude: {fileID: 11400000, guid: 99731f3675225324f9985394b21e13b2, type: 2}
+  amplitudeBuffer: {fileID: 11400000, guid: 919206c760e49184eb8fd878d4a0d0de, type: 2}
+  amplitudeAverage: {fileID: 11400000, guid: 041770a9fe9bc664b886bdb05e885f73, type: 2}
+  amplitudeBufferAverage: {fileID: 11400000, guid: 692649276a17bed49bc20f7dbce9a039, type: 2}
+  amplitudeHighest: {fileID: 11400000, guid: 780a99a95eca5494d9625cdc6d4ff828, type: 2}
+  audioBand: {fileID: 11400000, guid: e2ca583fbb2aed44c9ad375488296af9, type: 2}
+  audioBandBuffer: {fileID: 11400000, guid: 2a10f02ee4a18284180b81b578092a00, type: 2}
+  freqBand: {fileID: 11400000, guid: 43c694637390f474590782ace40c140e, type: 2}
+  bandBuffer: {fileID: 11400000, guid: 17c4929cd305cc645b337e5c5e4291e7, type: 2}
+  bufferDecrease: {fileID: 11400000, guid: 16f325c6c7e8dec4fa82a360bb4f52a8, type: 2}
+  freqBandHighest: {fileID: 11400000, guid: 737a635af607e9e419759219ca93ba4f, type: 2}
+  samples: {fileID: 11400000, guid: 03d793676ce45d146b4e117e34f717bf, type: 2}
