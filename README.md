@@ -40,6 +40,4 @@ We welcome contributions from the community! To contribute:
 5. Open a pull request.
 
 
-For more details, watch the [Beat Fighter introduction video](https://www.youtube.com/watch?v=f4YrpTgx4QI).
-
----
+[![Beat Fighter](https://img.youtube.com/vi/f4YrpTgx4QI/0.jpg)](https://www.youtube.com/watch?v=f4YrpTgx4QI)
